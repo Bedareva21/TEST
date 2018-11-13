@@ -1,0 +1,213 @@
+button{
+	border: 0px solid #d2d2d4;
+	color: #000000;
+	background: none;
+	width: 100px;
+	height: 35px;
+}
+
+p {
+padding:5px 5px;
+font-family: "Calibri";
+}
+li{
+	position:static;
+	color: red;
+}
+
+li.box-1 {
+	position:relative;
+	color:green;
+}
+li.box-2 {
+	position:relative;
+	color:#FF00FF;
+}
+li.box-3 {
+	position:relative;
+	color:red;
+}
+li.box-4 {
+	position:relative;
+	color:#FFA07A;
+}
+li.box-5 {
+	position:relative;
+	color:#00FFFF;
+}
+li.box-6 {
+	position:relative;
+	color:#FFFF00;
+}
+li.box-7 {
+	position:relative;
+	color:#8B4513;
+}
+li.box-8 {
+	position:relative;
+	color:#0000FF;
+}
+li.box-9 {
+	position:relative;
+	color:#778899;
+}
+li.box-10 {
+	position:relative;
+	color:#00FA9A;
+}
+
+li span{
+	font-weight: bold;
+	color: black;
+	background: none;
+}
+
+li span:active {
+	color: white;
+}
+
+a.button14 {
+    color: #000000;
+    text-shadow: 10px 1px #fff;
+    text-align: center;
+    text-decoration: none;
+    padding: 8px;
+    border: 1px solid #d2d2d4;
+    border-radius: 100px;
+    background: #ffffff no-repeat;
+    margin: auto;
+    overflow: hidden;
+}
+
+a.button14:after {
+    content: "\203a";
+    position: relative;
+    bottom: 0;
+    display: inline-block;
+    margin-left: 1.4em;
+    vertical-align: middle;
+	font-weight: bold;
+    font-family: "Calibri","EmojiSymbols";
+    font-weight: 100;
+    font-size: 100%;
+    -webkit-transform: rotate(90deg);
+    transform: rotate(90deg);
+}
+
+* { 
+    margin: 8px 5px; 
+    padding: 0px; 
+}
+
+ul.dropdown  { 
+    float: left; 
+    width: 100px;  
+    position: relative; 
+}
+
+ul.dropdown a:active{
+	color: #000; 
+}
+
+.stations{
+    padding: 10px 20px;
+	width:300px;
+	height:400px;
+	display: block;
+	font-weight: bold;
+	margin: 10 0 1em;
+	position: relative;
+    box-shadow: 0 0 20px #d3d3d3;
+	border-radius: 10px;
+}
+
+
+.stl-wrapper{
+    width:250px;
+    height:300px;
+	overflow-y:scroll;
+	padding-top:1px
+}
+
+.st-search {
+	outline: none;
+	position: relative;
+	width: 200px;
+	border: 0px;
+	height: 50px;
+}
+
+.st-search > * {
+	outline: none;
+	width: 100%;
+
+}
+
+.st-search > ul {
+	outline: none;
+	background: #FFF;
+	border-radius: 0px;
+	box-shadow: 0 0 10px #ffffff;
+	display: none;
+	margin: 5px 0 0 0;
+	padding: 5px 0;
+	position: relative;
+	z-index: auto;
+}
+
+.st-search li {
+	outline: none;
+	padding: 0 0px;
+    z-index: auto;
+}
+
+.st-search li:hover {
+	outline: none;
+	background: #ffffff;
+	cursor: pointer;
+}
+
+.boxes {
+  margin: auto;
+  padding: 0px;
+  background: #ffffff;
+  overflow-y:scroll;
+  height: 300px;
+}
+
+input[type="checkbox"] {
+	display: none;
+}
+
+input[type="checkbox"] + label {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 20px;
+  font: 17px/20px 'Open Sans', "Calibri", sans-serif;
+  cursor: pointer;
+}
+
+input[type="checkbox"] + label:before {
+  content: '';
+  display: block;
+  width: 200px;
+  height: 25px;
+  border: 0px solid #6cc0e5;
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 1;
+  -webkit-transition: all .12s, border-color .08s;
+  transition: all .12s, border-color .08s;
+}
+
+input[type="checkbox"]:checked + label:before {
+  width: 250px;
+  top: 0px;
+  left: 0px;
+  border-radius: 10px;
+  opacity: .7;
+  background-color: #7B68EE;
+}
